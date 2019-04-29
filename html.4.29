@@ -1,0 +1,59 @@
+H5常用label
+http://caniuse.com H5のラベルを調べられる
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert title here</title>
+<style>
+#header img{ height:600px;  width:100%; }
+#context{ height:500px;}
+#left{width:30%; float:left; background:#ccc; height:500px;}
+#right{width:70%;float:left;}
+#footer{text-align:center;}
+.clearBoth{clear:both;}
+.news{width:60px; height:27px; line-height:27px; background:#ffaf00;
+color:#ffffff; display:inline-block; text-align:center; border-radius:8px;}
+</style>
+<script type="text/javascript">
+ alert("hello ITStudy");
+</script>
+<!-- <h2>ITStudy公司介绍<span class="news">New</span></h2> -->
+</head>
+
+<body>
+	<header>
+		<img alt="" src="images/banner-1.jpg">
+	</header>
+  
+<section>
+	<div id="context">
+		<!-- start left -->
+		<div id="left">
+      <nav>
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">公司介绍</a></li>
+          <li><a href="">联系我们</a></li>
+        </ul>
+      </nav>
+		</div>
+		<!-- end left -->
+	
+		<!-- start right -->
+		<div id="right">
+			<h2>ITStudy公司介绍<span class="news">New</span></h2>
+			<p>在日华人圈唯一的it培训学校</p>
+		</div>
+		<!-- end right -->
+	</div>
+	<!-- end context -->
+<section>
+	<div class="clearBoth"></div>
+
+	<footer>
+		<p>2019 ITStudy株式会社 版权所有 </p>
+	</footer>
+
+</body>
+</html>
